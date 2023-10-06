@@ -1,0 +1,28 @@
+/* .header{
+    background-color: rgb(185, 57, 57);
+   
+} */
+.sub-nav{
+    display: flex;
+    height: 8vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4.5rem;
+}
+
+
+.top-social-icon{
+    display: flex;
+}
+
+
+
+.blog-main-logo{
+    height: 32vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}

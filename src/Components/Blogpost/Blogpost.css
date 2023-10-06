@@ -1,0 +1,111 @@
+.blog-post{
+    width: 65.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.single-post{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.single-post-img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+.post-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   line-height: 1.8rem;
+}
+.post-categ-btn{
+    border: .1rem solid orangered;
+    padding: .5rem 1rem;
+    font-size: .8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: rgb(247, 93, 4);
+    color: #fff;
+    letter-spacing: .2rem;
+}
+.post-upl-date{
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: #6e6e6e;
+}
+.post-analytics{
+    background-color: #6e6e6e;
+}
+
+
+.post-about{
+    display: flex;
+    flex-direction: column;    
+    gap: 1rem;
+}
+.post-title{
+    text-transform: capitalize;
+    color: #474747;
+    font-size: 1.4rem;
+}
+.post-about-para{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    height: 12.5vh;
+    overflow: hidden;
+}
+.read-more-btn{
+    text-decoration: none;
+    border: none;
+
+}
+.read-more-btn a{
+    /* width: 20%; */
+    padding: 1rem;
+    border: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    background-color: red;
+    box-shadow: 5px 5px 10px orange;
+    color: orange;
+    text-decoration: none;
+}
+/* .read-more-btn a{
+
+}
+.read-more-btn a:hover {
+
+    color: #fff;
+} */
+.read-more-btn a:hover{
+    cursor: pointer;
+    background-color: orange;
+    box-shadow: 5px 5px 10px #fff;
+    
+}
+
+.post-cardtype{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.older-post-btn{
+    padding: 1rem 1.2rem;
+    letter-spacing: .1rem;
+    border: none;
+    background-color: orange;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    width: fit-content;
+}
+.post-categ-btn:hover,.card-post-categ-btn:hover, .older-post-btn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: .1rem solid orange;
+    color: orange;
+}

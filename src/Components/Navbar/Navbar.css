@@ -1,0 +1,29 @@
+.navbar{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(71, 136, 192);
+}
+
+
+.navbar-list{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-menu a{
+    font-size: .9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+   
+}
+.nav-menu a:hover{
+    color: orange;
+   
+}

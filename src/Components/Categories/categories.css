@@ -1,0 +1,19 @@
+.categoriescard{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+}
+.categories-card-img{
+    width: 100%;
+    height: 10vh;
+    object-fit: cover;
+}
+.categoriescard p{
+    font-size: 1rem;
+    padding: .4rem 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #fff;
+    background-color: #FFAD4D;
+}

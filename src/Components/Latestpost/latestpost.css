@@ -1,0 +1,18 @@
+.latest-post{
+    height: 18vh;
+    display: flex;
+    gap: 1rem;
+}
+.latest-post-img{
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+}
+.latest-post-data{
+    width: 70%;
+}
+.latest-post-data h3{ 
+    font-size: 1rem;
+    text-transform: capitalize;
+    padding: .6rem 0;
+}

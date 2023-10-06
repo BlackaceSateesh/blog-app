@@ -1,0 +1,42 @@
+.footer{
+    min-height: 55vh;
+}
+.footer h2{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 500;
+    padding: 1.2rem 5rem;
+
+}
+.footer-imgs{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer-imgs img{
+    height: 100%;
+    width: 14.2%;
+    background-color: aliceblue;
+}
+
+/* copyright section */
+
+.copyright{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    background-color: #29333C;
+}
+.copyright p{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+.footer-social-icons{
+    color: #fff;
+}
